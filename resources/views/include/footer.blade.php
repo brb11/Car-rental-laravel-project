@@ -63,27 +63,8 @@
                                 <div class="widget">
                                     <h3 class="widget-title">Account</h3>
                                     <div class="quick-links">
-                                    <?php
-$email=$_SESSION['alogin'];
-$sql ="SELECT name FROM users WHERE email=:email ";
-$query= $dbh -> prepare($sql);
-$query-> bindParam(':email', $email, PDO::PARAM_STR);
-$query-> execute();
-$results=$query->fetchAll(PDO::FETCH_OBJ);
-if($query->rowCount() > 0)
-{
-foreach($results as $result)
-	{
-        echo htmlentities($result->name); }}?>
 
-                                        <ul>
-                                        <?php if($_SESSION['alogin']){?>
-                                        <li><a href="profile.php">Profile Settings</a></li>
-                                            <li><a href="logout.php">Sign Out</a></li>
-                                            <?php } else { ?>
-                                            <li><a href="login.php"  >Profile Settings</a></li>
-                                            <li><a href="login.php" >Sign Out</a></li>
-                                            <?php } ?>
+
                                         </ul>
                                     </div>
                                 </div>
@@ -173,6 +154,8 @@ foreach($results as $result)
     <script src="{{ asset('JS/magnific.popup.min.js') }}">
     <script src="{{ asset('JS/wow.min.js') }}">
     <script src="{{ asset('JS/main.js') }}">
+
+
 
 </body>
 

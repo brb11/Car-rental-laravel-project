@@ -8,22 +8,28 @@
 <!-->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 <!--<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<!--Bootstrap -->
 
-<head>
+
+
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <!--[if IE]-->
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
     <!--[endif]-->
-    <title>ISA - CAR SELLER COMPANY
-
+    <title>     | @yield('title')
     </title>
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><!-- Theme Style -->
-    <link rel="stylesheet" type="text/css" href="{{ URL::asset('CSS/style.css') }}">
+    <link href="{{ asset('CSS/style.css') }}" rel="stylesheet">
     <!-- Favicon and Touch Icons  -->
-    <link href="{{ URL::asset('imag/icon/favicon.png') }}" rel="shortcut icon">
-    <link href="{{ URL::asset('imag/icon/apple-touch-icon-158-precomposed.png') }}" rel="apple-touch-icon-precomposed">
+    <link href="{{ asset('icon/favicon.png') }}" rel="shortcut icon">
+    <link href="{{ asset('icon/apple-touch-icon-158-precomposed.png') }}" rel="apple-touch-icon-precomposed">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]-->
     <!-- <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -66,7 +72,7 @@
                 </div>
                 <div class="container">
                     <a class="main-logo" href="index.php">
-                        <img src="{{ 'icon/logo.png'}}" alt="autoshow">
+                        <img src="assets/icon/logo.png" alt="autoshow">
                     </a>
                     <ul class="header-buttons">
 
@@ -114,5 +120,10 @@
                     </div>
                 </div>
             </header>
+<body>
 
-
+        <main>
+            @yield('content')
+        </main>
+</body>
+</html>

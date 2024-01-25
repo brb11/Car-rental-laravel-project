@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CrudController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,14 @@ use Illuminate\Support\Facades\Route;
 |ph
 */
 
-Route::get('/', function () {
-    return view('Main Pages/index');
-});
+// Route::get('/', function () {
+//     return view('Main Pages/index');
+// });
+
+Route::get('/',[CrudController::class,'show']);
+Route::get('include/footer',[CrudController::class,'showUsers']);
+
+
+// Route::get('/', function () {
+//     return view('frontend/layout/app');
+// });
