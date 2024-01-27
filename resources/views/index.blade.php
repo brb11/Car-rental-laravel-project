@@ -12,44 +12,44 @@
 @section('title','Car Rental Portal')
 <!--Bootstrap -->
 <link rel="stylesheet" href="{{URL::asset('CSS/bootstrap.min.css')}}" type="text/css">
-<link rel="stylesheet" href="{{URL::asset('CSS/bootstrap-grid.css')}}" type="text/css">
-
 <link rel="stylesheet" href="{{URL::asset('CSS/style.css')}}" type="text/css">
+<link rel="stylesheet" href="{{URL::asset('style.css')}}" type="text/css">
+
 <link rel="stylesheet" href="{{URL::asset('CSS/owl.carousel.css')}}" type="text/css">
 <link rel="stylesheet" href="{{URL::asset('CSS/owl.transitions.css')}}" type="text/css">
-<link rel="stylesheet" href="{{URL::asset('CSS/slick.css')}}" type="text/css">
-<link rel="stylesheet" href="{{URL::asset('CSS/bootstrap-slider.min.css')}}" type="text/css">
-<link rel="stylesheet" href="{{URL::asset('CSS/font-awesome.min.css')}}" type="text/css">
+<link rel="stylesheet" href="{{URL::asset('CSS/slick.css')}}">
+<link rel="stylesheet" href="{{URL::asset('CSS/bootstrap-slider.min.css')}}">
+<link rel="stylesheet" href="{{URL::asset('CSS/font-awesome.min.css')}}">
 
 <link rel="stylesheet" id="switcher-css" type="text/css" href="{{ URL::asset('switcher/css/switcher.css') }}" media="all" />
-<link rel="stylesheet" id="switcher-css" type="text/css" href="{{ URL::asset('switcher/css/red.css') }}" media="all" />
-<link rel="stylesheet" id="switcher-css" type="text/css" href="{{ URL::asset('switcher/css/orange.css') }}" media="all" />
-<link rel="stylesheet" id="switcher-css" type="text/css" href="{{ URL::asset('switcher/css/blue.css') }}" media="all" />
-<link rel="stylesheet" id="switcher-css" type="text/css" href="{{ URL::asset('switcher/css/pink.css') }}" media="all" />
-<link rel="stylesheet" id="switcher-css" type="text/css" href="{{ URL::asset('switcher/css/green.css') }}" media="all" />
-<link rel="stylesheet" id="switcher-css" type="text/css" href="{{ URL::asset('switcher/css/purple.css') }}" media="all" />
+<link rel="alternate stylesheet" type="text/css" href="{{ URL::asset('switcher/css/red.css') }} " title="red" media="all" data-default-color="true" />
+<link rel="alternate stylesheet" type="text/css" href="{{ URL::asset('switcher/css/orange.css') }}" title="orange" media="all" />
+<link rel="alternate stylesheet" type="text/css" href="{{ URL::asset('switcher/css/blue.css') }}" title="blue" media="all" />
+<link rel="alternate stylesheet" type="text/css" href="{{ URL::asset('switcher/css/pink.css') }}" media="all" />
+<link rel="alternate stylesheet" type="text/css" href="{{ URL::asset('switcher/css/green.css') }}" title="green" media="all" />
+<link rel="alternate stylesheet" type="text/css" href="{{ URL::asset('switcher/css/purple.css') }}" title="purple" media="all" />
 
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ URL::asset('images/favicon-icon/apple-touch-icon-144-precomposed.png') }}">
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ URL::asset('images/favicon-icon/apple-touch-icon-114-precomposed.html') }}">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ URL::asset('images/favicon-icon/apple-touch-icon-72-precomposed.png') }}">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ URL::asset('images/favicon-icon/apple-touch-icon-57-precomposed.png') }}">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ URL::asset('images/favicon-icon/apple-touch-icon-72-precomposed.png') }}">
+<link rel="apple-touch-icon-precomposed" href="{{ URL::asset('images/favicon-icon/apple-touch-icon-57-precomposed.png') }}">
 
 <link rel="shortcut icon" href="{{ url::asset('images/favicon-icon/favicon.png') }}">
-<link href="{{ URL::asset('https://fonts.googleapis.com/css?family=Lato:300,400,700,900') }}" rel="stylesheet">
+<link href="{{ url::asset('https://fonts.googleapis.com/css?family=Lato:300,400,700,90" rel="stylesheet') }}">
 
 
 </head>
 <body>
 
 @include('include.header')
-@csrf
+
             <div class="overlay"></div>
             <!-- slider-area -->
             <section class="slider-area">
                 <div class="slider-active">
                     <div class="single-slider slider-bg d-flex align-items-center"
-                        style="background-image:"><img src="{{ 'imag/slider/blue-jeep-parking-public-zone.jpg'}}">
+                        style="background-image: url('imag/slider/blue-jeep-parking-public-zone.jpg')">
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
@@ -74,8 +74,8 @@
 
 
             </section>
-            <!-- cars-area -->
-            <section class="section-padding gray-bg">
+<!-- cars-area -->
+<section class="section-padding gray-bg">
   <div class="container">
     <div class="section-header text-center">
       <h2>Find the Best <span>CarForYou</span></h2>
@@ -92,8 +92,6 @@
       <!-- Recently Listed New Cars -->
       <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="resentnewcar">
-
-
 @foreach($data as $result)
 
 <div class="col-list-3">
@@ -115,8 +113,9 @@
      </div>
     </div>
   </div>
+  @endforeach
 </section>
-@endforeach
+
             <!-- news-area -->
             <section class="white-section section-block">
                 <div class="section-space"></div>
@@ -319,7 +318,7 @@
             </section>
             <!-- features-area -->
             <section class="dark-section section-block">
-                <div class="section-bg" style="background-image:"><img src={{ 'imag/parallax.jpg'}}></div>
+                <div class="section-bg" style="background-image:url(''imag/parallax.jpg'');"></div>
                 <div class="section-space"></div>
                 <div class="container">
                     <div class="row">
@@ -336,7 +335,7 @@
                                 data-wow-delay="0.2s">
                                 <div class="image-holder margin-bottom-0">
                                     <a href="#">
-                                        <img width="800" height="500" src={{ 'imag/box/box1.jpg'}} alt="">
+                                        <img width="800" height="500" src="{{ 'imag/box/box1.jpg'}}" alt="">
                                         <h4 class="features-title">Design</h4>
                                         <span class="features-overlay"></span>
                                     </a>
@@ -412,6 +411,7 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="review-item clearfix">
                                         <div class="testimonial-box">
                                             <div class="testimonial">Completely synergize resource taxing relationships
@@ -477,7 +477,7 @@
                                         <div class="inner">
                                             <a target="_blank" href="#">
                                                 <div class="thumb">
-                                                    <img src="assets/img/partner/logo-2.png" alt="Image">
+                                                    <img src="{{ 'imag/partner/logo-2.png' }}" alt="Image">
                                                 </div>
                                             </a>
                                         </div>
@@ -486,7 +486,7 @@
                                         <div class="inner">
                                             <a target="_blank" href="#">
                                                 <div class="thumb">
-                                                    <img src="assets/img/partner/logo-3.png" alt="Image">
+                                                    <img src="{{ 'imag/partner/logo-3.png' }}" alt="Image">
                                                 </div>
                                             </a>
                                         </div>
@@ -495,7 +495,7 @@
                                         <div class="inner">
                                             <a target="_blank" href="#">
                                                 <div class="thumb">
-                                                    <img src="assets/img/partner/logo-4.png" alt="Image">
+                                                    <img src="{{ 'imag/partner/logo-4.png' }}" alt="Image">
                                                 </div>
                                             </a>
                                         </div>
@@ -504,7 +504,7 @@
                                         <div class="inner">
                                             <a target="_blank" href="#">
                                                 <div class="thumb">
-                                                    <img src="assets/img/partner/logo-5.png" alt="Image">
+                                                    <img src="{{ 'imag/partner/logo-5.png' }}" alt="Image">
                                                 </div>
                                             </a>
                                         </div>
@@ -513,7 +513,7 @@
                                         <div class="inner">
                                             <a target="_blank" href="#">
                                                 <div class="thumb">
-                                                    <img src="assets/img/partner/logo-6.png" alt="Image">
+                                                    <img src="{{ 'imag/partner/logo-6.png' }}" alt="Image">
                                                 </div>
                                             </a>
                                         </div>
@@ -522,7 +522,7 @@
                                         <div class="inner">
                                             <a target="_blank" href="#">
                                                 <div class="thumb">
-                                                    <img src="assets/img/partner/logo-7.png" alt="Image">
+                                                    <img src="{{ 'imag/partner/logo-7.png' }}" alt="Image">
                                                 </div>
                                             </a>
                                         </div>
@@ -531,7 +531,7 @@
                                         <div class="inner">
                                             <a target="_blank" href="#">
                                                 <div class="thumb">
-                                                    <img src="assets/img/partner/logo-8.png" alt="Image">
+                                                    <img src="{{ 'imag/partner/logo-8.png' }}" alt="Image">
                                                 </div>
                                             </a>
                                         </div>

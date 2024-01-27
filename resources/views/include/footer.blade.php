@@ -140,20 +140,20 @@
         </div>
     </div>
     <!-- Javascript -->
-    <script src="{{ asset('JS/jquery.min.js') }}">
-    <script src="{{ asset('JS/bootstrap.min.js') }}">
-    <script src="{{ asset('JS/bootstrap-select.min.js') }}">
-    <script src="{{ asset('JS/animsition.js') }}">
-    <script src="{{ asset('JS/jquery.appear.min.js') }}">
-    <script src="{{ asset('JS/countto.js') }}">
-    <script src="{{ asset('JS/slick.min.js') }}">
-    <script src="{{ asset('JS/jquery.stickit.min.js') }}">
-    <script src="{{ asset('JS/jquery.parallax-1.1.3.js') }}">
-    <script src="{{ asset('JS/owl.carousel.min.js') }}">
-    <script src="{{ asset('JS/masonry.pkgd.min.js') }}">
-    <script src="{{ asset('JS/magnific.popup.min.js') }}">
-    <script src="{{ asset('JS/wow.min.js') }}">
-    <script src="{{ asset('JS/main.js') }}">
+    <script src="{{ asset('JS/jquery.min.js') }}"></script>
+    <script src="{{ asset('JS/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('JS/bootstrap-select.min.js') }}"></script>
+    <script src="{{ asset('JS/animsition.js') }}"></script>
+    <script src="{{ asset('JS/jquery.appear.min.js') }}"></script>
+    <script src="{{ asset('JS/countto.js') }}"></script>
+    <script src="{{ asset('JS/slick.min.js') }}"></script>
+    <script src="{{ asset('JS/jquery.stickit.min.js') }}"></script>
+    <script src="{{ asset('JS/jquery.parallax-1.1.3.js') }}"></script>
+    <script src="{{ asset('JS/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('JS/masonry.pkgd.min.js') }}"></script>
+    <script src="{{ asset('JS/magnific.popup.min.js') }}"></script>
+    <script src="{{ asset('JS/wow.min.js') }}"></script>
+    <script src="{{ asset('JS/main.js') }}"></script>
 
 
 

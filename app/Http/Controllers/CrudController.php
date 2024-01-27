@@ -11,7 +11,7 @@ class CrudController extends Controller
     public function show()
     {
         $data= Vihical::all();
-        $users=Users::all();
+        //$users=Users::all();
         return view('index',compact('data')); //fech
     }
     public function showUsers()

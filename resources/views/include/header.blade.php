@@ -1,13 +1,8 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8 ]>
-<html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
-<![endif]-->
-<!--[if (gte IE 9)|!(IE)]>
-<!-->
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
-<!--<![endif]-->
 
 <head>
     <!-- Basic Page Needs -->
@@ -20,7 +15,7 @@
     </title>
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><!-- Theme Style -->
-    <link rel="stylesheet" type="text/css" href="{{ URL::asset('CSS/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ URL::asset('style.css') }}">
     <!-- Favicon and Touch Icons  -->
     <link href="{{ URL::asset('imag/icon/favicon.png') }}" rel="shortcut icon">
     <link href="{{ URL::asset('imag/icon/apple-touch-icon-158-precomposed.png') }}" rel="apple-touch-icon-precomposed">

@@ -20,8 +20,3 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[CrudController::class,'show']);
 Route::get('include/footer',[CrudController::class,'showUsers']);
-
-
-// Route::get('/', function () {
-//     return view('frontend/layout/app');
-// });
