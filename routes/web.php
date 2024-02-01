@@ -25,9 +25,11 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/',[Vihical_details::class,'index'])->name('index');
-Route::get('include/footer',[CrudController::class,'showUsers']);
 Route::get('frontend/pages/vehical-details/{vid}',[Vihical_details::class,'Vdetails'])->name('Vdetails');
 Route::post('frontend/pages/vehical-details/',[BookingController::class,'create'])->name('BookingInsert');
+Route::get('frontend/pages/pages-about',[DesplayPages::class,'About'])->name('About');
+Route::get('frontend/pages/pages-contact',[DesplayPages::class,'Contact'])->name('Contact');
+
 
 
 

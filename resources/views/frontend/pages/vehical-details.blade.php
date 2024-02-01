@@ -85,8 +85,8 @@
         </div>
         @if(session('success_message'))
         <script>alert('{{ session('success_message') }}');</script>
+        @endif
 
-    @endif
 
 
 <br><br><br><br>
@@ -97,7 +97,7 @@
 </div>
 
 @else
-<div class="form-group">
+<div class="form-group"><pre>
     <a href="{{ route('login') }}" class="btn btn-xs uppercase" data-toggle="modal" data-dismiss="modal">Login For Book</a>
 
 </div>

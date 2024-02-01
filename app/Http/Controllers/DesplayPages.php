@@ -6,9 +6,13 @@ use Illuminate\Http\Request;
 
 class DesplayPages extends Controller
 {
-    public function Vdetails($id)
+    public function About()
     {
-     return view('frontend/pages/vehical-details?vid='.$id);
+     return view('frontend/pages/pages-about');
+    }
+    public function Contact()
+    {
+     return view('frontend/pages/pages-contact');
     }
 
 

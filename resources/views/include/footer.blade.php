@@ -8,19 +8,19 @@
                                     <div class="quick-links">
                                         <ul>
                                             <li>
-                                                <a href="index.php#cars">ISA Model 1</a>
+                                                <a href="{{ route('index') }}">ISA Model 1</a>
                                             </li>
                                             <li>
-                                                <a href="index.php#cars">ISA Model 2</a>
+                                                <a href="{{ route('index') }}">ISA Model 2</a>
                                             </li>
                                             <li>
-                                                <a href="index.php#cars">ISA Model 3</a>
+                                                <a href="{{ route('index') }}">ISA Model 3</a>
                                             </li>
                                             <li>
-                                                <a href="index.php#cars">ISA Model 4</a>
+                                                <a href="{{ route('index') }}">ISA Model 4</a>
                                             </li>
                                             <li>
-                                                <a href="index.php#cars">ISA Model 5</a>
+                                                <a href="{{ route('index') }}">ISA Model 5</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -32,16 +32,20 @@
                                     <div class="quick-links">
                                         <ul>
                                             <li>
-                                                <a href="./pages-about.php">About Us</a>
+                                                <a href="{{ route('About') }}">About Us</a>
                                             </li>
                                             <li>
-                                                <a href="./login.php">Sing In</a>
+                                                <a href="{{ route('login') }}">Sing In</a>
                                             </li>
                                             <li>
-                                                <a href="./logout.php">Log Out</a>
+                                                <a href="{{ route('logout') }}"
+                                                onclick="event.preventDefault();
+                                                              document.getElementById('logout-form').submit();">
+                                                 {{ __('Logout') }}
+                                             </a>
                                             </li>
                                             <li>
-                                                <a href="./pages-contact.php">Contact</a>
+                                                <a href="{{ route('Contact') }}">Contact</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -53,7 +57,7 @@
                                     <div class="quick-links">
                                         <ul>
                                             <li>
-                                                <a href="./pages-contact.php">Contact</a>
+                                                <a href="{{ route('Contact') }}">Contact</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -64,7 +68,20 @@
                                     <h3 class="widget-title">Account</h3>
                                     <div class="quick-links">
 
+                                        <ul>
+                                     @if (auth()->check())
+                                     <li><a href=''>Profile Settings</a></li>
+                                     <li><a href="{{ route('logout') }}"
+                                        onclick="event.preventDefault();
+                                                      document.getElementById('logout-form').submit();">
+                                         {{ __('Logout') }}
+                                     </a></li>
 
+
+                                             @else
+                                            <li><a href="{{ route('login') }}"  >Profile Settings</a></li>
+                                            <li><a href="{{ route('login') }}">Sign Out</a></li>
+                                            @endif
                                         </ul>
                                     </div>
                                 </div>
@@ -166,15 +183,15 @@
 
 
 <!-- Loading Scripts -->
-<script src="{{ asset('admin/js/jquery.min.js') }}"></script>
-	<script src="{{ asset('admin/js/bootstrap-select.min.js') }}"></script>
-	<script src="{{ asset('admin/js/bootstrap.min.js') }}"></script>
-	<script src="{{ asset('admin/js/jquery.dataTables.min.js') }}"></script>
-	<script src="{{ asset('admin/js/dataTables.bootstrap.min.js') }}"></script>
-	<script src="{{ asset('admin/js/Chart.min.js') }}"></script>
-	<script src="{{ asset('admin/js/fileinput.js') }}"></script>
-	<script src="{{ asset('admin/js/chartData.js') }}"></script>
-	<script src="{{ asset('admin/js/main.js') }}"></script>
+<script src="{{ asset('/admin/js/jquery.min.js') }}"></script>
+	<script src="{{ asset('/admin/js/bootstrap-select.min.js') }}"></script>
+	<script src="{{ asset('/admin/js/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('/admin/js/jquery.dataTables.min.js') }}"></script>
+	<script src="{{ asset('/admin/js/dataTables.bootstrap.min.js') }}"></script>
+	<script src="{{ asset('/admin/js/Chart.min.js') }}"></script>
+	<script src="{{ asset('/admin/js/fileinput.js') }}"></script>
+	<script src="{{ asset('/admin/js/chartData.js') }}"></script>
+	<script src="{{ asset('/admin/js/main.js') }}"></script>
 
 </body>
 

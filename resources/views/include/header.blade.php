@@ -85,21 +85,21 @@
 
 
 <!-- Font awesome -->
-<link rel="stylesheet" href="{{ asset('admin/css/font-awesome.min.css') }}">
+<link rel="stylesheet" href="{{ asset('/admin/css/font-awesome.min.css') }}">
 <!-- Sandstone Bootstrap CSS -->
-<link rel="stylesheet" href="{{ asset('admin/css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ asset('/admin/css/bootstrap.min.css') }}">
 <!-- Bootstrap Datatables -->
-<link rel="stylesheet" href="{{ asset('admin/css/dataTables.bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ asset('/admin/css/dataTables.bootstrap.min.css') }}">
 <!-- Bootstrap social button library -->
-<link rel="stylesheet" href="{{ asset('admin/css/bootstrap-social.css') }}">
+<link rel="stylesheet" href="{{ asset('/admin/css/bootstrap-social.css') }}">
 <!-- Bootstrap select -->
-<link rel="stylesheet" href="{{ asset('admin/css/bootstrap-select.css') }}">
+<link rel="stylesheet" href="{{ asset('/admin/css/bootstrap-select.css') }}">
 <!-- Bootstrap file input -->
-<link rel="stylesheet" href="{{ asset('admin/css/fileinput.min.css') }}">
+<link rel="stylesheet" href="{{ asset('/admin/css/fileinput.min.css') }}">
 <!-- Awesome Bootstrap checkbox -->
-<link rel="stylesheet" href="{{ asset('admin/css/awesome-bootstrap-checkbox.css') }}">
+<link rel="stylesheet" href="{{ asset('/admin/css/awesome-bootstrap-checkbox.css') }}">
 <!-- Admin Stye -->
-<link rel="stylesheet" href="{{ asset('admin/css/style.css') }}">
+<link rel="stylesheet" href="{{ asset('/admin/css/style.css') }}">
 
 
 
@@ -189,9 +189,9 @@
                     <nav class="nav">
                         <ul id="primary-nav" class="primary-nav is-fixed">
                             <li class="">
-                                <a href="index.php#cars">Models</a>
+                                <a href="{{ route('index') }}">Models</a>
                             <li>
-                                        <a href="pages-contact.php">Contact</a>
+                                        <a href="{{ route('Contact') }}">Contact</a>
                             </li>
                             <li class="has-children">
                                 <a>Pages</a>
@@ -203,15 +203,15 @@
                                         <a href="{{ route('login') }}">Sign In &amp; Register</a>
                                     </li>
                                     <li>
-                                        <a href="pages-contact.php">Contact</a>
+                                        <a href="{{ route('Contact') }}">Contact</a>
                                     </li>
                                     <li>
-                                        <a href="pages-about.php">About Us</a>
+                                        <a href="{{ Route('About') }}">About Us</a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="pages-about.php">About</a>
+                                <a href="{{ Route('About') }}">About</a>
                             </li>
                         </ul>
                     </nav>
