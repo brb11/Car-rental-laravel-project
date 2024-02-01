@@ -1,43 +1,4 @@
-
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-
-    <!-- ==== -->
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="keywords" content="">
-<meta name="description" content="">
 @section('title','Car Rental Portal')
-<!--Bootstrap -->
-<link rel="stylesheet" href="{{URL::asset('CSS/bootstrap.min.css')}}" type="text/css">
-<link rel="stylesheet" href="{{URL::asset('CSS/style.css')}}" type="text/css">
-<link rel="stylesheet" href="{{URL::asset('style.css')}}" type="text/css">
-
-<link rel="stylesheet" href="{{URL::asset('CSS/owl.carousel.css')}}" type="text/css">
-<link rel="stylesheet" href="{{URL::asset('CSS/owl.transitions.css')}}" type="text/css">
-<link rel="stylesheet" href="{{URL::asset('CSS/slick.css')}}">
-<link rel="stylesheet" href="{{URL::asset('CSS/bootstrap-slider.min.css')}}">
-<link rel="stylesheet" href="{{URL::asset('CSS/font-awesome.min.css')}}">
-
-<link rel="stylesheet" id="switcher-css" type="text/css" href="{{ URL::asset('switcher/css/switcher.css') }}" media="all" />
-<link rel="alternate stylesheet" type="text/css" href="{{ URL::asset('switcher/css/red.css') }} " title="red" media="all" data-default-color="true" />
-<link rel="alternate stylesheet" type="text/css" href="{{ URL::asset('switcher/css/orange.css') }}" title="orange" media="all" />
-<link rel="alternate stylesheet" type="text/css" href="{{ URL::asset('switcher/css/blue.css') }}" title="blue" media="all" />
-<link rel="alternate stylesheet" type="text/css" href="{{ URL::asset('switcher/css/pink.css') }}" media="all" />
-<link rel="alternate stylesheet" type="text/css" href="{{ URL::asset('switcher/css/green.css') }}" title="green" media="all" />
-<link rel="alternate stylesheet" type="text/css" href="{{ URL::asset('switcher/css/purple.css') }}" title="purple" media="all" />
-
-
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ URL::asset('images/favicon-icon/apple-touch-icon-144-precomposed.png') }}">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ URL::asset('images/favicon-icon/apple-touch-icon-114-precomposed.html') }}">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ URL::asset('images/favicon-icon/apple-touch-icon-72-precomposed.png') }}">
-<link rel="apple-touch-icon-precomposed" href="{{ URL::asset('images/favicon-icon/apple-touch-icon-57-precomposed.png') }}">
-
-<link rel="shortcut icon" href="{{ url::asset('images/favicon-icon/favicon.png') }}">
-<link href="{{ url::asset('https://fonts.googleapis.com/css?family=Lato:300,400,700,90" rel="stylesheet') }}">
-
 
 </head>
 <body>
@@ -89,6 +50,7 @@
           <li role="presentation" class="active"><a href="#resentnewcar" role="tab" data-toggle="tab" id="cars">New Car</a></li><br>
         </ul>
       </div>
+    </div>
       <!-- Recently Listed New Cars -->
       <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="resentnewcar">
@@ -96,7 +58,7 @@
 
 <div class="col-list-3">
 <div class="recent-car-list">
-<div class="car-info-box"><a href="vehical-details.php?vhid={{ $result->id }}"> <img src="/storage/admin/img/vehicleimages/{{$result->img1}}" class="img-responsive" alt="image"></a>
+<div class="car-info-box"><a href="{{ route('Vdetails',['vid' => $result->id]) }}"> <img src="/storage/admin/img/vehicleimages/{{$result->img1}}" class="img-responsive" alt="image"></a>
 <ul>
 <li><i class="fa fa-car" aria-hidden="true"></i>{{ $result->name }}</li>
 <li><i class="fa fa-calendar" aria-hidden="true"></i>{{ $result->model_year }} Model</li>
@@ -104,16 +66,17 @@
 </ul>
 </div>
 <div class="car-title-m">
-<h6><a href="vehical-details.php?vhid={{ $result->id }}">{{ $result->vih_name }} . {{ $result->name }}</a></h6>
+<h6><a href="{{ route('Vdetails',['vid' => $result->id]) }}">{{ $result->name }} . {{ $result->bra_name }}</a></h6>
 <span class="price">₹{{ $result->price }}$</span>
+
 </div>
 </div>
 </div>
+@endforeach
 
      </div>
     </div>
   </div>
-  @endforeach
 </section>
 
             <!-- news-area -->

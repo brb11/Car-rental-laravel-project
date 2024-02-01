@@ -8,7 +8,7 @@ Version:1.0
 
 /*===========================
  =  Table of CSS
- 
+
 	1.1. Typography
 		1.2. Button
 		1.3. dark-overlay
@@ -16,13 +16,13 @@ Version:1.0
 		1.5. Form
 		1.6. Table
 		1.7. Section-background-color & sectino-heading
-		1.8 Tabs 
+		1.8 Tabs
 		1.9. parallex-background
 		1.10. Modal
-	
+
 	2. Header
 		2.1 Navigation & Dropdown Menu
-	
+
 	3. Home-Page
 		3.1. Banner
 		3.2. Filter-Form
@@ -36,7 +36,7 @@ Version:1.0
 		3.10. Popular-Brands
 		3.11. Login / Register / Forgot password
 		3.12. Footer
-		
+
 	4. Home-Page-2
 		4.1. Header
 		4.2. Banner
@@ -46,7 +46,7 @@ Version:1.0
 		4.6. Our-Services
 		4.7. Testimonial
 		4.8. Help
-	
+
 	5. Inner-Page-Heading-Section
 	6. Breadcrumb
 	7. Listing-Page
@@ -54,14 +54,14 @@ Version:1.0
 	9. Listing-Detail
 	10. Contact-Us-Page
 	11. FAQ-Page
-	
+
 	12. About-Us-Page
 		12.1. Why-Choose-Us-Section
 		12.2. Meet-the-Team-Section
-	
+
 	13. 404-Page
 	14. Our-Services-Page
-	
+
 	15. Our-Blog-Page
 		15.1. Aritcle
 		15.2. Comment-List
@@ -70,17 +70,17 @@ Version:1.0
 		15.5. Popular-Posts
 		15.6. Blog-Categories
 		15.7. Blog-Tag
-	
+
 	16. Profile-page
 		16.1. Post-a-vehicle
 		16.2. my-vehicles
-	
+
 	17. Dealer-profile
 	18. Dealers-list
 	19. Compare-Page
 	20. Coming-Soon-Page
 	21. Responsive CSS
-		                                                  
+
 ===========================*/
 
 
@@ -127,7 +127,7 @@ h6 {
 	font-size: 18px;
 }
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
-	font-weight:300	
+	font-weight:300
 }
 p {
 	font-size:16px;
@@ -179,17 +179,17 @@ ul.list-with-icon li i {
 }
 
 blockquote {
-	background:#f5f5f5 ;	
+	background:#f5f5f5 ;
 }
-.white-text, 
-.white-text h1, 
-.white-text h2, 
-.white-text h3, 
-.white-text h4, 
-.white-text h5, 
-.white-text h6, 
+.white-text,
+.white-text h1,
+.white-text h2,
+.white-text h3,
+.white-text h4,
+.white-text h5,
+.white-text h6,
 .white-text p {
-	color:#fff;	
+	color:#fff;
 }
 .uppercase {
 	text-transform:uppercase;
@@ -245,14 +245,14 @@ blockquote {
 .btn.outline {
 	background:none;
 	border-style:solid;
-	border-width:1px;	
+	border-width:1px;
 }
 .btn.outline:hover, .btn.outline:focus {
 	color:#fff;
 }
 .btn.btn-xs {
 	font-size:12px;
-	padding:0px 25px;	
+	padding:0px 25px;
 }
 .btn.btn-xs .fa {
 	margin:0 5px;
@@ -286,63 +286,63 @@ blockquote {
 	color:#fff;
 }
 
-a, 
-.btn-link, 
-.car-title-m h6 a:hover, 
-.featured-car-content > h6 a:hover, 
-.footer-top ul li a:hover, 
-.get-intouch a:hover, 
-.blog-content h5 a:hover, 
-.blog-info-box li a:hover, 
-.control-label span, 
-.angle_arrow i, 
-.contact_detail li a:hover, 
-.team_more_info p a:hover, 
-.error_text_m h2, 
-.search_btn, 
+a,
+.btn-link,
+.car-title-m h6 a:hover,
+.featured-car-content > h6 a:hover,
+.footer-top ul li a:hover,
+.get-intouch a:hover,
+.blog-content h5 a:hover,
+.blog-info-box li a:hover,
+.control-label span,
+.angle_arrow i,
+.contact_detail li a:hover,
+.team_more_info p a:hover,
+.error_text_m h2,
+.search_btn,
 .popular_post_title a:hover,
 .categories_list ul li a:hover,
-.categories_list ul li a:hover:after, 
-.article_meta ul li a:hover, 
-.articale_header h2 a:hover, 
-.btn.outline, 
-.share_article ul li, 
-.contact-info a:hover, 
-.social-follow a:hover, 
-.radio input[type=radio]:checked + label:before, 
-.checkbox input[type=checkbox]:checked + label:before, 
-.product-listing-content h5 a:hover, 
-.pricing_info .price, 
-.text-primary, 
-.footer_widget ul li a:hover, 
-.header_search button:hover, 
-.header_widgets a:hover, 
-.navbar-default .navbar-nav > li.active a, 
-.navbar-default .navbar-nav > li:focus a, 
-.navbar-default .navbar-nav > li:hover a,  
-.navbar-default .navbar-nav > .active > a:hover, 
-.navbar-default .navbar-nav > .open > a, 
-.navbar-default .navbar-nav > .open > a:focus, 
+.categories_list ul li a:hover:after,
+.article_meta ul li a:hover,
+.articale_header h2 a:hover,
+.btn.outline,
+.share_article ul li,
+.contact-info a:hover,
+.social-follow a:hover,
+.radio input[type=radio]:checked + label:before,
+.checkbox input[type=checkbox]:checked + label:before,
+.product-listing-content h5 a:hover,
+.pricing_info .price,
+.text-primary,
+.footer_widget ul li a:hover,
+.header_search button:hover,
+.header_widgets a:hover,
+.navbar-default .navbar-nav > li.active a,
+.navbar-default .navbar-nav > li:focus a,
+.navbar-default .navbar-nav > li:hover a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover,
-.my_vehicles_list ul.vehicle_listing li a:hover, 
-.dealer_contact_info a:hover, 
-.widget_heading i, 
-.dealers_listing .dealer_info h5 a:hover, 
-.main_features ul li p, 
-.listing_detail_head .price_info p, 
-.listing_other_info button:hover, 
-.compare_info table td i, .compare_info table th i,  
-#accessories i, 
-.price, 
-.inventory_info_list ul li i, 
-.services_info h4 a:hover, 
-.about_info .icon_box, 
-.header_style2 .navbar-nav > li > .dropdown-menu a:hover, 
-.header_style2 .navbar-default .navbar-nav li:hover .dropdown-menu li a:hover, 
-.header_style2 .dropdown-menu > .active > a, 
-.header_style2 .dropdown-menu > .active > a:focus, 
-.header_style2 .dropdown-menu > .active > a:hover, 
-.header_style2 .dropdown-menu > li > a:focus, 
+.my_vehicles_list ul.vehicle_listing li a:hover,
+.dealer_contact_info a:hover,
+.widget_heading i,
+.dealers_listing .dealer_info h5 a:hover,
+.main_features ul li p,
+.listing_detail_head .price_info p,
+.listing_other_info button:hover,
+.compare_info table td i, .compare_info table th i,
+#accessories i,
+.price,
+.inventory_info_list ul li i,
+.services_info h4 a:hover,
+.about_info .icon_box,
+.header_style2 .navbar-nav > li > .dropdown-menu a:hover,
+.header_style2 .navbar-default .navbar-nav li:hover .dropdown-menu li a:hover,
+.header_style2 .dropdown-menu > .active > a,
+.header_style2 .dropdown-menu > .active > a:focus,
+.header_style2 .dropdown-menu > .active > a:hover,
+.header_style2 .dropdown-menu > li > a:focus,
 .header_style2 .dropdown-menu > li > a:hover {
 	color:#fa2837;
 	fill: #fa2837;
@@ -353,61 +353,61 @@ a:hover, a:focus, .btn-link:hover {
 	fill: #ff0012;
 }
 
-.btn, 
-.nav-tabs > li.active > a, 
-.nav-tabs > li.active > a:focus, 
-.nav-tabs > li.active > a:hover, 
-.recent-tab .nav.nav-tabs li.active a, 
-.fun-facts-m, .featured-icon, 
+.btn,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover,
+.recent-tab .nav.nav-tabs li.active a,
+.fun-facts-m, .featured-icon,
 .owl-pagination .owl-page.active,
-#testimonial-slider .owl-pagination .owl-page.active, 
-.social-follow.footer-social a:hover, 
-.back-top a, 
-.team_more_info ul li a:hover, 
-.tag_list ul li a:hover, 
-.pagination ul li.current, 
+#testimonial-slider .owl-pagination .owl-page.active,
+.social-follow.footer-social a:hover,
+.back-top a,
+.team_more_info ul li a:hover,
+.tag_list ul li a:hover,
+.pagination ul li.current,
 .pagination ul li:hover,
-.btn.outline:hover, 
-.btn.outline:focus, 
-.share_article ul li:hover, 
-.nav-tabs > li a:hover, 
-.nav-tabs > li a:focus, 
-.label-icon, 
-.navbar-default .navbar-toggle .icon-bar, 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover, 
-.label_icon, 
-.navbar-nav > li > .dropdown-menu, 
-.add_compare .checkbox, 
-.search_other, 
-.vs, 
-.td_divider, 
-.search_other_inventory, 
-#other_info, 
-.main_bg, 
+.btn.outline:hover,
+.btn.outline:focus,
+.share_article ul li:hover,
+.nav-tabs > li a:hover,
+.nav-tabs > li a:focus,
+.label-icon,
+.navbar-default .navbar-toggle .icon-bar,
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover,
+.label_icon,
+.navbar-nav > li > .dropdown-menu,
+.add_compare .checkbox,
+.search_other,
+.vs,
+.td_divider,
+.search_other_inventory,
+#other_info,
+.main_bg,
 .slider .slider-handle, .slider .slider-selection {
   background: #fa2837 none repeat scroll 0 0;
   fill: #fa2837;
 }
-.btn:hover, .btn:focus, 
-.search_other:hover, 
+.btn:hover, .btn:focus,
+.search_other:hover,
 #other_info:hover {
 	background-color: #c60210;
 	fill: #fb4d59;
 }
 
-.nav-tabs > li.active > a, 
-.nav-tabs > li.active > a:focus, 
-.nav-tabs > li.active > a:hover, 
-.social-follow.footer-social a:hover, 
-.page-header, 
-.tag_list ul li a:hover, 
-.btn.outline, 
-.share_article ul li, 
-blockquote, 
-.social-follow a:hover, 
-.radio label:before,  
-.navbar-default .navbar-toggle, 
-.owl-buttons div, 
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover,
+.social-follow.footer-social a:hover,
+.page-header,
+.tag_list ul li a:hover,
+.btn.outline,
+.share_article ul li,
+blockquote,
+.social-follow a:hover,
+.radio label:before,
+.navbar-default .navbar-toggle,
+.owl-buttons div,
 .about_info .icon_box {
 	border-color: #fa2837;
 }
@@ -425,7 +425,7 @@ blockquote,
 
 @media (max-width:767px) {
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
-	color:#fa2837;	
+	color:#fa2837;
 }
 
 
@@ -464,10 +464,10 @@ blockquote,
 	padding:50px 0;
 }
 .padding_4x4_30 {
-	padding:30px;	
+	padding:30px;
 }
 .padding_4x4_40 {
-	padding:40px;	
+	padding:40px;
 }
 .space-20 {
     width:100%;
@@ -530,7 +530,7 @@ blockquote,
 }
 .form-control:hover, .form-control:focus {
 	box-shadow:none;
-	outline:none	
+	outline:none
 }
 .select {
 	position:relative;
@@ -541,7 +541,7 @@ blockquote,
    -o-appearance: none;
    -webkit-appearance: none;
    -ms-appearance: none;
-  
+
 }
 .select::after {
   color: #878787;
@@ -561,7 +561,7 @@ blockquote,
 .control-label {
 	color:#555;
 	font-size:15px;
-	font-weight:700;	
+	font-weight:700;
 }
 .radio label, .checkbox label {
   cursor: pointer;
@@ -585,7 +585,7 @@ blockquote,
     left: 0;
 	top:4px;
     position: absolute;
-    width: 15px;	
+    width: 15px;
 }
 .checkbox label::before {
   background-color: rgba(0, 0, 0, 0);
@@ -624,7 +624,7 @@ blockquote,
 
 .form-control.white_bg {
 	background:#fff;
-	border:#e6e5e5 solid 1px;	
+	border:#e6e5e5 solid 1px;
 }
 
 
@@ -666,7 +666,7 @@ table thead th, table thead td {
 	background-color:#111;
 	color:#fff;
 }
-.gray-bg { 
+.gray-bg {
 	background:#eeeeee;
 }
 .primary-bg {
@@ -691,7 +691,7 @@ table thead th, table thead td {
 
 
 /*--------------------
-	1.8 Tabs 
+	1.8 Tabs
 ------------------------------*/
 
 .nav.nav-tabs {
@@ -782,7 +782,7 @@ table thead th, table thead td {
 }
 .logo {
   float:left;
-} 
+}
 .navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
 	background:#fff;
 }
@@ -930,7 +930,7 @@ table thead th, table thead td {
 
 
 /*----------------------------------
-	2.1 Navigation & Dropdown Menu 
+	2.1 Navigation & Dropdown Menu
 ------------------------------------------*/
 #navigation_bar {
   background: #111111 none repeat scroll 0 0;
@@ -955,8 +955,8 @@ nav.navbar {
   -webkit-transition-duration:0.3s;
   -ms-transition-duration:0.3s;
 }
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
 	background:none;
 }
@@ -983,12 +983,12 @@ nav.navbar {
   right: 18px;
   top: 30%;
 }
-.navbar-default .navbar-nav li:hover a, 
+.navbar-default .navbar-nav li:hover a,
 .navbar-default .navbar-nav li.active a {
-	color:#fff;	
+	color:#fff;
 }
-.navbar-default .navbar-nav > .open > a, 
-.navbar-default .navbar-nav > .open > a:focus, 
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {
 	border-radius:0;
 	background:none;
@@ -1011,10 +1011,10 @@ nav.navbar {
 	padding:12px 25px;
 }
 .navbar-default .navbar-nav li:hover .dropdown-menu li a {
-	color:#fff;	
+	color:#fff;
 }
-.navbar-nav > li > .dropdown-menu a:hover, 
-.navbar-default .navbar-nav li:hover .dropdown-menu li a:hover, 
+.navbar-nav > li > .dropdown-menu a:hover,
+.navbar-default .navbar-nav li:hover .dropdown-menu li a:hover,
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
 	background:#111;
 }
@@ -1022,13 +1022,13 @@ nav.navbar {
 .navbar-nav > li > .dropdown-menu li:last-child {
 	border:0px;
 }
-.user_login .dropdown-menu > .active > a, .user_login .dropdown-menu > .active > a:focus, .user_login .dropdown-menu > .active > a:hover, 
+.user_login .dropdown-menu > .active > a, .user_login .dropdown-menu > .active > a:focus, .user_login .dropdown-menu > .active > a:hover,
 .user_login  .dropdown-menu > .active > a:hover, .user_login  .dropdown-menu > li > a:focus, .user_login .dropdown-menu > li > a:hover {
 	background:#fff;
 	color:#111;
 }
 @media (min-width:768px) {
-	
+
 .navbar-default .navbar-nav > li.dropdown:hover .dropdown-menu {
 	display:block;
 }
@@ -1125,7 +1125,7 @@ nav.navbar {
 	margin-bottom:25px;
 }
 #filter_form .btn {
-	font-size:18px;	
+	font-size:18px;
 }
 #filter_form .btn i {
 	margin-right:6px;
@@ -1335,7 +1335,7 @@ nav.navbar {
 	line-height:35px;
 	background:rgba(0, 0, 0, 0.5);
 	border:0px;
-	
+
 }
 .blog-info-box .share_article:hover ul {
 	opacity:1;
@@ -1449,7 +1449,7 @@ nav.navbar {
 }
 .price_info {
 	overflow:hidden;
-}	
+}
 .featured-price {
 	float:left;
 	width:50%;
@@ -1675,10 +1675,10 @@ nav.navbar {
   padding-top: 25px;
 }
 .blog-content h5 {
-	line-height:26px;	
+	line-height:26px;
 }
 .blog-content h5 a {
-	color:#111;	
+	color:#111;
 }
 .blog-content a i {
 	margin:0px;
@@ -1787,7 +1787,7 @@ nav.navbar {
   padding: 10px 22px;
   text-align: left;
 }
-.btn.facebook-btn i, .btn.twitter-btn i, .btn.googleplus-btn i { 
+.btn.facebook-btn i, .btn.twitter-btn i, .btn.googleplus-btn i {
 	font-size:26px;
 	margin-right:10px;
 }
@@ -2220,7 +2220,7 @@ form .slider.slider-horizontal {
   top: inherit;
   width: 135px;
 }
-.testimonial_wrap .testimonial-heading::after { 
+.testimonial_wrap .testimonial-heading::after {
 	display:none;
 }
 .testimonial_wrap::after {
@@ -2246,7 +2246,7 @@ form .slider.slider-horizontal {
 #help {
   background-image: url("../images/help_bg.jpg");
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   position:relative;
   background-attachment:fixed;
 }
@@ -2269,7 +2269,7 @@ form .slider.slider-horizontal {
 }
 .page-header_wrap {
   padding:60px 0;
-  position:relative;	
+  position:relative;
   text-align:center;
 }
 .page-heading {
@@ -2496,7 +2496,7 @@ form .slider.slider-horizontal {
   padding: 50px 25px !important;
 }
 .sell_car_quote .btn {
-	margin-bottom:15px;	
+	margin-bottom:15px;
 }
 
 
@@ -2528,7 +2528,7 @@ form .slider.slider-horizontal {
 	color:#555;
 	font-weight:900;
 	display:inline-block;
-	vertical-align:middle;	
+	vertical-align:middle;
 	margin:0 auto;
 }
 .grid_listing .product-listing-content .car-location {
@@ -2558,7 +2558,7 @@ form .slider.slider-horizontal {
 	9. Listing-Detail
 ===============================*/
 .listing-detail {
-	padding:80px 0;	
+	padding:80px 0;
 }
 .listing_detail_head {
 	margin-bottom:50px;
@@ -2575,7 +2575,7 @@ form .slider.slider-horizontal {
 }
 .listing_more_info {
 	overflow:hidden;
-	padding:50px 0;	
+	padding:50px 0;
 }
 .listing_info_tab {
   border: 1px solid #e0dfdf;
@@ -2594,7 +2594,7 @@ table.info-tabel tr td {
 	padding:15px 20px ;
 }
 .info-tabel tr td:first-child {
-	color:#111;	
+	color:#111;
 	border-left-width:1px;
 	font-weight:700;
 }
@@ -2602,7 +2602,7 @@ table.info-tabel tr td {
 	border-right-width:1px;
 }
 .financing_calculatoe {
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 .financing_calculatoe .btn {
 	margin-top:15px;
@@ -2624,7 +2624,7 @@ table.info-tabel tr td {
 	margin-top:15px;
 }
 .listing_detail_wrap {
-	border:#dcd9d9 solid 1px;	
+	border:#dcd9d9 solid 1px;
 }
 .listing_detail_wrap .nav-tabs > li a {
 	font-size:18px;
@@ -2641,10 +2641,10 @@ table.info-tabel tr td {
 .listing_detail_wrap .tab-content {
   padding: 30px;
 }
-.listing_detail_wrap .tab-content h1, .listing_detail_wrap .tab-content h2, 
-.listing_detail_wrap .tab-content h3, .listing_detail_wrap .tab-content h4, 
+.listing_detail_wrap .tab-content h1, .listing_detail_wrap .tab-content h2,
+.listing_detail_wrap .tab-content h3, .listing_detail_wrap .tab-content h4,
 .listing_detail_wrap .tab-content h5, .listing_detail_wrap .tab-content h6 {
-	margin-top:35px;	
+	margin-top:35px;
 }
 .listing_more_info table td, .listing_more_info table th {
 	font-size:16px;
@@ -2652,7 +2652,7 @@ table.info-tabel tr td {
 .listing_more_info table tr td:first-child {
 	color:#111;
 }
- 
+
 .similar_cars {
 	padding:20px 0;
 }
@@ -2699,7 +2699,7 @@ table.info-tabel tr td {
 .share_vehicle {
 	background:#222222;
 	padding:22px 26px;
-	margin:0 auto 35px;	
+	margin:0 auto 35px;
 }
 .share_vehicle p, .share_vehicle a {
 	color:#fff;
@@ -2725,7 +2725,7 @@ table.info-tabel tr td {
 .listing_detail_head .car-location {
 	margin:0px;
 	color:#555;
-	font:16px;	
+	font:16px;
 }
 .listing_detail_head .price_info {
   overflow: visible;
@@ -2751,9 +2751,9 @@ table.info-tabel tr td {
 	text-transform:uppercase;
 	padding:26px 0;
 	margin:0 40px 0 0;
-}	
+}
 .listing_other_info button i {
-	margin:0 4px 0 0;	
+	margin:0 4px 0 0;
 }
 .listing_other_info button:last-child {
 	margin:0px;
@@ -2863,7 +2863,7 @@ table.info-tabel tr td {
 }
 
 .video_wrap {
-	margin:40px auto 0px	
+	margin:40px auto 0px
 }
 .video-box iframe {
 	width:100%;
@@ -2876,7 +2876,7 @@ table.info-tabel tr td {
 	10. Contact-Us-Page
 ================================*/
 .contactus_page {
-	background-image:url(../images/contact-page-header-img.jpg);	
+	background-image:url(../images/contact-page-header-img.jpg);
 }
 .contact_form {
 	padding:28px;
@@ -2967,7 +2967,7 @@ table.info-tabel tr td {
   background: #000 none repeat scroll 0 0;
   border-radius: 100%;
   overflow:hidden;
-}	
+}
 .about_img img {
 	width:100%;
 	border-radius:50%;
@@ -2981,7 +2981,7 @@ table.info-tabel tr td {
 	opacity:0.5;
 }
 .about_content {
-	padding:20px 0;	
+	padding:20px 0;
 }
 .about_content h3 {
 	margin-top:25px;
@@ -3016,7 +3016,7 @@ table.info-tabel tr td {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .team_img {
-	position:relative;	
+	position:relative;
 	overflow:hidden;
 }
 .team_img img {
@@ -3118,7 +3118,7 @@ table.info-tabel tr td {
 	13. 404-Page
 ===========================*/
 .page_404 {
-	background-image:url(../images/error404-page-header-img.jpg);	
+	background-image:url(../images/error404-page-header-img.jpg);
 }
 .error_text_m {
 	position:relative;
@@ -3126,7 +3126,7 @@ table.info-tabel tr td {
 }
 .error_text_m h2 {
 	font-size:232px;
-	text-align:center;	
+	text-align:center;
 }
 .error_text_m h2 span {
 	color:#111;
@@ -3152,7 +3152,7 @@ table.info-tabel tr td {
 }
 .error_icon i {
 	color:#cfcfcf;
-	font-size:130px;	
+	font-size:130px;
 }
 .error_msg_div {
   float: left;
@@ -3160,7 +3160,7 @@ table.info-tabel tr td {
   padding-top:15px;
 }
 .error_msg_div h3 {
-	font-size:60px;	
+	font-size:60px;
 }
 .error_msg_div h3 span {
 	font-size:40px;
@@ -3176,7 +3176,7 @@ table.info-tabel tr td {
 	14. Our-Services-Page
 ==================================*/
 .services_page {
-	background-image:url(../images/services-page-header-img.jpg);	
+	background-image:url(../images/services-page-header-img.jpg);
 }
 .services_image {
 	position:relative;
@@ -3241,7 +3241,7 @@ table.info-tabel tr td {
 .article_info p {
 	font-size:17px;
 	line-height:33px;
-	margin:0 auto 40px	
+	margin:0 auto 40px
 }
 .article_img {
   position: relative;
@@ -3474,7 +3474,7 @@ table.info-tabel tr td {
   color:#555;
 }
 .pagination ul li.current, .pagination ul li:hover a {
-	color:#fff;	
+	color:#fff;
 }
 
 
@@ -3492,7 +3492,7 @@ table.info-tabel tr td {
   margin-bottom:26px;
 }
 .widget_heading i {
-	margin:0 5px 0 0;	
+	margin:0 5px 0 0;
 }
 .search_btn {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -3514,7 +3514,7 @@ table.info-tabel tr td {
   margin-bottom:20px;
 }
 .blog_search input {
-	padding-right:50px;	
+	padding-right:50px;
 }
 
 
@@ -3633,7 +3633,7 @@ table.info-tabel tr td {
 	padding:80px 0;
 }
 .user_profile_info {
-	margin:0 auto 45px;	
+	margin:0 auto 45px;
 	max-width:660px;
 	overflow:hidden;
 }
@@ -3728,7 +3728,7 @@ table.info-tabel tr td {
 	clear:both;
 	margin:0 auto 30px;
 	display:table;
-	width:100%;	
+	width:100%;
 }
 .accessories_list {
 	margin-top:10px !important;
@@ -3737,7 +3737,7 @@ table.info-tabel tr td {
 
 @media (min-width:991px) {
 .accessories_list:nth-child(2n) {
-	clear:right;		
+	clear:right;
 }
 
 }
@@ -3766,7 +3766,7 @@ table.info-tabel tr td {
   height: 95px;
   margin: 0 10px 10px 0;
   width: 150px;
-}	
+}
 .vehicle_images img {
 	max-width:100%;
 }
@@ -3887,31 +3887,31 @@ table.info-tabel tr td {
 	margin:10px 15px 10px 0;
 }
 .dealer_social_links li a {
-	font-size:26px;	
+	font-size:26px;
 }
 .dealer_social_links li a i {
 	margin:0px;
 }
 .facebook-icon a, .facebook-icon a:hover {
-	color:#3a5898;	
+	color:#3a5898;
 }
 .twitter-icon a, .twitter-icon a:hover {
-	color:#54acec;	
+	color:#54acec;
 }
 .linkedin-icon a, .twitter-icon a:hover {
-	color:#0777b6;	
+	color:#0777b6;
 }
 .google-plus-icon a, .google-plus-icon a:hover {
-	color:#dd4a3a;	
+	color:#dd4a3a;
 }
 .dealer_contact_info {
 	padding:12px 18px;
-	margin:0 auto 10px;	
+	margin:0 auto 10px;
 }
 .dealer_contact_info h6 {
 	font-size:13px;
 	color:#a1a1a1;
-	margin:0 auto 1px;	
+	margin:0 auto 1px;
 }
 .dealer_contact_info a {
   color: #111111;
@@ -3955,11 +3955,11 @@ table.info-tabel tr td {
   width:100%;
 }
 .dealers_listing .dealer_info h5 a {
-	color:#111;	
+	color:#111;
 }
 .view_profile {
 	padding:12px 0;
-	text-align:right;	
+	text-align:right;
 }
 .view_profile p {
 	margin:10px 0;
@@ -3976,7 +3976,7 @@ table.info-tabel tr td {
 }
 .compare_info table td, .compare_info table th {
 	font-size:16px;
-	color:#111;	
+	color:#111;
 	width:25%;
 }
 .inventory_info_list {
@@ -4002,24 +4002,24 @@ table.info-tabel tr td {
 	text-transform:uppercase;
 	font-weight:900;
 	color:#111;
-	font-size:16px;	
+	font-size:16px;
 }
 .inventory_info_list ul li div {
 	font-size:16px;
-	color:#111;	
+	color:#111;
 	padding:18px 50px;
 	border:1px solid #cccccc;
 	margin-top:-1px;
 }
 .inventory_info_list ul li.info_heading div {
-	text-align:right;	
+	text-align:right;
 }
 .compare_info table td:first-child {
 	text-align:right;
 }
 .compare_info table td {
 	padding-left:50px;
-	padding-right:50px;	
+	padding-right:50px;
 }
 .compare_product_title {
 	margin:0 auto 15px;
@@ -4058,12 +4058,12 @@ table.info-tabel tr td {
   text-align: center;
   top: 50%;
   width: 32px;
-  transform:translateY(-50%)
+  transform:translateY(-50%);
    -moz-transform:translateY(-50%);
     -o-transform:translateY(-50%);
      -webkit-transform:translateY(-50%);
      -md-transform:translateY(-50%)
-} 
+}
 .td_divider {
   display: block;
   height: 70%;
@@ -4086,7 +4086,7 @@ table.info-tabel tr td {
 	    -ms-transform:translateY(-50%);
 }
 .compare_product_title a {
-	color:#111;	
+	color:#111;
 }
 .compare_info .compare_product_img td, .compare_info .compare_product_img th {
 	padding:0 16px;
@@ -4148,7 +4148,7 @@ table.info-tabel tr td {
 	line-height:35px;
 }
 .coming_soon_content {
-	padding:200px 0 80px;	
+	padding:200px 0 80px;
 }
 .coming_soon_content img {
 	max-width:100%;
@@ -4157,7 +4157,7 @@ table.info-tabel tr td {
 	text-align:right;
 }
 .timer_countdown {
-	margin:50px auto;	
+	margin:50px auto;
 }
 .countdown-amount:after {
 	content:"";
@@ -4225,7 +4225,7 @@ table.info-tabel tr td {
 	float:right;
 }
 .coming_soon_wrap .footer_widget ul li a {
-	color:#555;	
+	color:#555;
 }
 
 
@@ -4277,7 +4277,7 @@ table.info-tabel tr td {
 }
 .contact-info p {
   font-size: 0;
-}	
+}
 .contact-info p .fa {
   font-size: 14px
 }
@@ -4410,7 +4410,7 @@ h3 {
   width: 100%;
 }
 .article_full_info .articale_header h2 {
-	font-size:30px;	
+	font-size:30px;
 }
 .article_full_info .article_meta {
   padding: 6px 15px;
@@ -4425,7 +4425,7 @@ h3 {
   overflow: hidden;
   position: relative;
 }
-.article_full_info .article_img { 
+.article_full_info .article_img {
 	min-height:inherit;
 }
 .article_info p {
@@ -4466,7 +4466,7 @@ h3 {
   width: 49%;
 }
 .article_full_info ul, .article_full_info ol {
-	padding-left:10px;	
+	padding-left:10px;
 }
 .article_full_info ul li i, .article_full_info ol li i {
   margin: 0 3px 0 0;
@@ -4488,7 +4488,7 @@ h3 {
 }
 .footer-bottom .footer_widget {
 	display:block;
-	margin:0 auto 10px;	
+	margin:0 auto 10px;
 }
 .login_btn .btn.btn-xs {
   margin-top: 8px;
@@ -4799,12 +4799,12 @@ h3 {
 .header_style2 .navbar-default .navbar-nav li:hover .dropdown-menu li a {
   color: #111;
 }
-.header_style2 .navbar-nav > li > .dropdown-menu a:hover, 
-.header_style2 .navbar-default .navbar-nav li:hover .dropdown-menu li a:hover, 
-.header_style2 .dropdown-menu > .active > a, 
-.header_style2 .dropdown-menu > .active > a:focus, 
-.header_style2 .dropdown-menu > .active > a:hover, 
-.header_style2 .dropdown-menu > li > a:focus, 
+.header_style2 .navbar-nav > li > .dropdown-menu a:hover,
+.header_style2 .navbar-default .navbar-nav li:hover .dropdown-menu li a:hover,
+.header_style2 .dropdown-menu > .active > a,
+.header_style2 .dropdown-menu > .active > a:focus,
+.header_style2 .dropdown-menu > .active > a:hover,
+.header_style2 .dropdown-menu > li > a:focus,
 .header_style2 .dropdown-menu > li > a:hover {
   background: #fff none repeat scroll 0 0;
 }
@@ -4856,7 +4856,7 @@ h3 {
 }
 .dealer_info p {
 	font-size:14px;
-	line-height:24px;	
+	line-height:24px;
 }
 .dealer_info h5 {
   font-size: 18px;
@@ -4900,7 +4900,7 @@ h3 {
 	float:none;
 }
 .recent-tab .nav-tabs > li {
-	float:left;	
+	float:left;
 }
 .nav-tabs > li a {
 	margin:0px;
@@ -5086,7 +5086,7 @@ h3 {
   padding: 15px 30px;
 }
 .article_full_info .articale_header h2 {
-	font-size:40px;	
+	font-size:40px;
 }
 .services_image {
   margin-bottom: 25px;
@@ -5345,7 +5345,7 @@ h5 {
   font-size: 30px;
 }
 .articale_header h2 {
-	font-size:37px;	
+	font-size:37px;
 }
 .article_full_info .article_meta {
   padding: 6px 15px;
@@ -5373,7 +5373,7 @@ h5 {
   font-size: 32px;
 }
 .article_full_info .articale_header h2 {
-	font-size:40px;	
+	font-size:40px;
 }
 .grid_listing .product-listing-content {
   padding: 14px 14px 0;

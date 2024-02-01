@@ -140,22 +140,41 @@
         </div>
     </div>
     <!-- Javascript -->
-    <script src="{{ asset('JS/jquery.min.js') }}"></script>
-    <script src="{{ asset('JS/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('JS/bootstrap-select.min.js') }}"></script>
-    <script src="{{ asset('JS/animsition.js') }}"></script>
-    <script src="{{ asset('JS/jquery.appear.min.js') }}"></script>
-    <script src="{{ asset('JS/countto.js') }}"></script>
-    <script src="{{ asset('JS/slick.min.js') }}"></script>
-    <script src="{{ asset('JS/jquery.stickit.min.js') }}"></script>
-    <script src="{{ asset('JS/jquery.parallax-1.1.3.js') }}"></script>
-    <script src="{{ asset('JS/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('JS/masonry.pkgd.min.js') }}"></script>
-    <script src="{{ asset('JS/magnific.popup.min.js') }}"></script>
-    <script src="{{ asset('JS/wow.min.js') }}"></script>
-    <script src="{{ asset('JS/main.js') }}"></script>
+    <script src="{{ asset('/JS/jquery.min.js') }}"></script>
+    <script src="{{ asset('/JS/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('/JS/bootstrap-select.min.js') }}"></script>
+    <script src="{{ asset('/JS/animsition.js') }}"></script>
+    <script src="{{ asset('/JS/jquery.appear.min.js') }}"></script>
+    <script src="{{ asset('/JS/countto.js') }}"></script>
+    <script src="{{ asset('/JS/slick.min.js') }}"></script>
+    <script src="{{ asset('/JS/jquery.stickit.min.js') }}"></script>
+    <script src="{{ asset('/JS/jquery.parallax-1.1.3.js') }}"></script>
+    <script src="{{ asset('/JS/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('/JS/masonry.pkgd.min.js') }}"></script>
+    <script src="{{ asset('/JS/magnific.popup.min.js') }}"></script>
+    <script src="{{ asset('/JS/wow.min.js') }}"></script>
+    <script src="{{ asset('/JS/main.js') }}"></script>
+
+    <script src="{{ asset('/JS/su/jquery.min.js') }}"></script>
+    <script src="{{ asset('/JS/su/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('/JS/su/interface.js') }}"></script>
+    <script src="{{ asset('/JS/su/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('/switcher/js/switcher.js') }}"></script>
+    <script src="{{ asset('/JS/su/bootstrap-slider.min.js') }}"></script>
+    <script src="{{ asset('/JS/su/slick.min.js') }}"></script>
+    <script src="{{ asset('/JS/su/owl.carousel.min.js') }}"></script>
 
 
+<!-- Loading Scripts -->
+<script src="{{ asset('admin/js/jquery.min.js') }}"></script>
+	<script src="{{ asset('admin/js/bootstrap-select.min.js') }}"></script>
+	<script src="{{ asset('admin/js/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('admin/js/jquery.dataTables.min.js') }}"></script>
+	<script src="{{ asset('admin/js/dataTables.bootstrap.min.js') }}"></script>
+	<script src="{{ asset('admin/js/Chart.min.js') }}"></script>
+	<script src="{{ asset('admin/js/fileinput.js') }}"></script>
+	<script src="{{ asset('admin/js/chartData.js') }}"></script>
+	<script src="{{ asset('admin/js/main.js') }}"></script>
 
 </body>
 

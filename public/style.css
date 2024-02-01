@@ -1,13 +1,13 @@
 /** * Theme Name: AutoShow - Car Shoowroom * ������ȫ��õ�Bootstrapģ�壺http://www.bootstrapmb.com */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i|Source+Sans+Pro:300,400,600,700,800&subset=latin-ext");
-@import "assets/css/animate.css";
-@import "assets/css/animsition.css";
-@import "assets/css/bootstrap-grid.css";
+@import "/css/animate.css";
+@import "/css/animsition.css";
+@import "/css/bootstrap-grid.css";
 /* Default Reset, Responsive Grid*/
-@import "assets/css/font-awesome.css";
-@import "assets/css/owl.carousel.css";
-@import "assets/css/magnific-popup.css";
-@import "assets/css/slick.css";
+@import "/css/font-awesome.css";
+@import "/css/owl.carousel.css";
+@import "/css/magnific-popup.css";
+@import "/css/slick.css";
 
 /* Reset Browsers-------------------------------------------------------------- */
 html,
